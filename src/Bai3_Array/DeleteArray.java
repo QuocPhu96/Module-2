@@ -13,7 +13,6 @@ public class DeleteArray {
         location = scanner.nextInt();
 
         for (int i = 0; i < array.length; i++){
-//            location = array[i];
             if (location == array[i]){
                 for (int j = i; j < array.length - 1; j++)
                     array[j] = array[j + 1];

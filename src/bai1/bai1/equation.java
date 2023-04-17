@@ -15,6 +15,7 @@ public class equation {
         double b = scanner.nextDouble();
         System.out.println("c :");
         double c = scanner.nextDouble();
+        int _phu;
 
         if (a != 0){
             double answer = (c - b) / a;
